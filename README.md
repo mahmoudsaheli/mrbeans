@@ -1,16 +1,20 @@
-# React + Vite
+# Mr. Beans Cafe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Mr. Beans Cafe Logo](public/nav-logo.jpg)
 
-Currently, two official plugins are available:
+A fully custom, high-performance web experience designed exclusively for **Mr. Beans Cafe**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Architecture & Technology
 
-## React Compiler
+This repository contains the bespoke front-end application architecture for Mr. Beans, engineered from the ground up to deliver a premium, seamless digital experience. 
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Custom 3D Rendering**: Engineered using advanced WebGL mathematics to continuously render a beautiful, 1:1 scale Mr. Beans takeaway cup in real-time.
+- **Glassmorphic UI**: High-end translucent interaction design.
+- **Performance Optimized**: Compiled and minified for instant mobile accessibility utilizing an ultra-fast modern asset bundler.
+- **Responsive Fluid Grid**: Dynamically scales and reflows from large desktop monitors down to mobile viewports without breaking perspective.
 
-## Expanding the ESLint configuration
+## Deployment
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This application is configured for robust Edge deployment. Content delivery is fully automated via continuous integration pipelines. It dynamically routes and serves optimized assets through edge edge nodes globally.
+
+> **Designed and Developed by M Solution**
