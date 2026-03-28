@@ -4,7 +4,7 @@ import { useTexture, Decal, Float, RoundedBox } from '@react-three/drei';
 
 export function CoffeeCup(props) {
   const cupRef = useRef();
-  const texture = useTexture('/cup-label.svg');
+  const texture = useTexture(import.meta.env.BASE_URL + 'cup-label.svg');
 
   // Slowly rotate the cup continuously
   useFrame((state, delta) => {

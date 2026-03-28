@@ -13,14 +13,14 @@ function App() {
       {/* Background Image & Overlay */}
       <div 
         className="fixed inset-0 z-0 bg-cover bg-center bg-no-repeat opacity-70"
-        style={{ backgroundImage: "url('/bg-coffee.jpg')", pointerEvents: 'none' }}
+        style={{ backgroundImage: `url('${import.meta.env.BASE_URL}bg-coffee.jpg')`, pointerEvents: 'none' }}
       />
       <div className="fixed inset-0 z-0 bg-black/60 bg-gradient-to-t from-[#121212] via-black/40 to-black/80 pointer-events-none" />
 
       {/* Navbar - Globally Fixed */}
       <nav className={`fixed top-0 left-0 right-0 z-[100] flex items-center justify-between px-6 py-4 md:py-5 md:px-12 transition-all duration-300 ${isMobileMenuOpen ? 'bg-transparent border-b-transparent shadow-none' : 'backdrop-blur-md bg-[#121212]/80 border-b border-white/5 shadow-xl'}`}>
           <div className="flex items-center gap-3">
-            <img src="/nav-logo.jpg" alt="Mr. Beans Logo" className="w-auto h-12 md:h-14 rounded-full object-cover" />
+            <img src={`${import.meta.env.BASE_URL}nav-logo.jpg`} alt="Mr. Beans Logo" className="w-auto h-12 md:h-14 rounded-full object-cover" />
             <div className="flex flex-col items-center justify-center pt-1">
               <span 
                 className="text-3xl md:text-4xl text-[#ce9d4f] leading-none"
@@ -173,7 +173,7 @@ function App() {
         
         {/* Footer Brand Logo */}
         <div className="flex flex-col items-center gap-5 mb-10">
-          <img src="/nav-logo.jpg" alt="Mr. Beans Logo" className="w-20 h-20 rounded-full object-cover border border-[#ce9d4f]/20 shadow-lg" />
+          <img src={`${import.meta.env.BASE_URL}nav-logo.jpg`} alt="Mr. Beans Logo" className="w-20 h-20 rounded-full object-cover border border-[#ce9d4f]/20 shadow-lg" />
           <div className="flex flex-col items-center justify-center">
             <span 
               className="text-3xl text-[#ce9d4f] leading-none"

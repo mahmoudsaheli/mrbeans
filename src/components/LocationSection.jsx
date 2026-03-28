@@ -100,7 +100,7 @@ export function LocationSection() {
               {/* Background Photo */}
               <div 
                 className="absolute inset-0 z-[0] bg-cover bg-center transition-transform duration-1000 group-hover:scale-105" 
-                style={{ backgroundImage: "url('/cafe-location.jpg')" }} 
+                style={{ backgroundImage: `url('${import.meta.env.BASE_URL}cafe-location.jpg')` }} 
               />
           </div>
         </motion.div>
