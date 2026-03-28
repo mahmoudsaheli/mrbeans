@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Outer Gold Rim -->
+  <circle cx="200" cy="200" r="190" fill="#222" stroke="#ce9d4f" stroke-width="12" />
+  
+  <!-- Mr. Beans Text -->
+  <text x="200" y="210" font-family="Arial, sans-serif" font-weight="bold" font-style="italic" font-size="64" fill="#ce9d4f" text-anchor="middle">Mr. Beans</text>
+  
+  <!-- Divider Line -->
+  <line x1="120" y1="235" x2="280" y2="235" stroke="#ce9d4f" stroke-width="2" />
+  
+  <!-- CAFE Text -->
+  <text x="200" y="275" font-family="Arial, sans-serif" font-weight="normal" font-size="28" fill="#e0e0e0" letter-spacing="4" text-anchor="middle">CAFE</text>
+</svg>

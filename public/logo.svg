@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <circle cx="256" cy="256" r="240" fill="#121212" stroke="#ce9d4f" stroke-width="16" />
+  <text x="50%" y="45%" dominant-baseline="middle" text-anchor="middle" fill="#ce9d4f" font-size="72" font-family="sans-serif" font-weight="bold" font-style="italic">Mr. Beans</text>
+  <text x="50%" y="65%" dominant-baseline="middle" text-anchor="middle" fill="#ce9d4f" font-size="32" font-family="sans-serif" letter-spacing="4">CAFE</text>
+</svg>
