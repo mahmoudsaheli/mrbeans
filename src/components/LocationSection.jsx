@@ -48,13 +48,40 @@ export function LocationSection() {
                 </div>
                 <div>
                   <h4 className="text-xl font-bold text-white mb-2 tracking-wide">Our Location</h4>
-                  <p className="text-gray-400 leading-relaxed text-lg">
+                  <p className="text-gray-400 leading-relaxed text-lg mb-4">
                     Mr. Beans Cafe<br/>
                     Rashayya, Lebanon
                   </p>
+                  <a 
+                    href="https://maps.app.goo.gl/2cqX5q79EyCKD2ey6" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center gap-3 px-6 py-3 bg-[#ce9d4f] text-[#121212] font-bold text-base rounded-full hover:scale-105 hover:shadow-[0_0_20px_rgba(206,157,79,0.4)] transition-all duration-300 w-full sm:w-64"
+                  >
+                    <Navigation className="w-4 h-4 fill-current" />
+                    Get Directions
+                  </a>
                 </div>
               </div>
 
+              {/* Call Us */}
+              <div className="flex items-start gap-5">
+                <div className="w-14 h-14 rounded-full bg-[#ce9d4f]/10 border border-[#ce9d4f]/30 flex items-center justify-center shrink-0">
+                  <Phone className="text-[#ce9d4f] w-6 h-6" />
+                </div>
+                <div>
+                  <h4 className="text-xl font-bold text-white mb-2 tracking-wide">Call Us</h4>
+                  <a 
+                    href="tel:+96176700375" 
+                    className="inline-flex items-center justify-center gap-3 px-6 py-3 bg-[#ce9d4f] text-[#121212] font-bold text-base rounded-full hover:scale-105 hover:shadow-[0_0_20px_rgba(206,157,79,0.4)] transition-all duration-300 w-full sm:w-64 mt-2"
+                  >
+                    <Phone className="w-4 h-4 fill-current" />
+                    +961 76 700 375
+                  </a>
+                </div>
+              </div>
+
+              {/* Opening Hours */}
               <div className="flex items-start gap-5">
                 <div className="w-14 h-14 rounded-full bg-[#ce9d4f]/10 border border-[#ce9d4f]/30 flex items-center justify-center shrink-0">
                   <Clock className="text-[#ce9d4f] w-6 h-6" />
@@ -67,32 +94,7 @@ export function LocationSection() {
                   </p>
                 </div>
               </div>
-
-              <div className="flex items-start gap-5">
-                <div className="w-14 h-14 rounded-full bg-[#ce9d4f]/10 border border-[#ce9d4f]/30 flex items-center justify-center shrink-0">
-                  <Phone className="text-[#ce9d4f] w-6 h-6" />
-                </div>
-                <div>
-                  <h4 className="text-xl font-bold text-white mb-2 tracking-wide">Call Us</h4>
-                  <a 
-                    href="tel:+96176700375" 
-                    className="text-gray-400 leading-relaxed text-lg hover:text-[#ce9d4f] transition-colors duration-300 underline underline-offset-4 decoration-transparent hover:decoration-[#ce9d4f]"
-                  >
-                    +961 76 700 375
-                  </a>
-                </div>
-              </div>
             </div>
-
-            <a 
-              href="https://maps.app.goo.gl/2cqX5q79EyCKD2ey6" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-3 px-8 py-4 bg-[#ce9d4f] text-[#121212] font-bold text-lg rounded-full hover:scale-105 hover:shadow-[0_0_20px_rgba(206,157,79,0.4)] transition-all duration-300 w-full sm:w-fit"
-            >
-              <Navigation className="w-5 h-5 fill-current" />
-              Get Directions
-            </a>
           </div>
 
           {/* Right side: Maps Visual Placeholder */}
