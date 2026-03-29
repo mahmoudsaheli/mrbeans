@@ -46,7 +46,7 @@ export function LocationSection() {
                 <div className="w-14 h-14 rounded-full bg-[#ce9d4f]/10 border border-[#ce9d4f]/30 flex items-center justify-center shrink-0">
                   <MapPin className="text-[#ce9d4f] w-6 h-6" />
                 </div>
-                <div>
+                <div className="flex-1">
                   <h4 className="text-xl font-bold text-white mb-2 tracking-wide">Our Location</h4>
                   <p className="text-gray-400 leading-relaxed text-lg mb-4">
                     Mr. Beans Cafe<br/>
@@ -69,7 +69,7 @@ export function LocationSection() {
                 <div className="w-14 h-14 rounded-full bg-[#ce9d4f]/10 border border-[#ce9d4f]/30 flex items-center justify-center shrink-0">
                   <Phone className="text-[#ce9d4f] w-6 h-6" />
                 </div>
-                <div>
+                <div className="flex-1">
                   <h4 className="text-xl font-bold text-white mb-2 tracking-wide">Call Us</h4>
                   <a 
                     href="tel:+96176700375" 
